@@ -1,0 +1,120 @@
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.5;
+  color: #697279;
+  font-size: 14px;
+  background:url('../img/geometry.png');
+}
+
+.page_wrap{
+  text-align:center;
+  width:700px;
+  margin:25px auto 0 auto;
+}
+
+img{
+  margin:25px 0;
+}
+
+h1,h2,h3{
+  line-height:1;
+}
+
+h3{
+  color:#434264;
+  text-transform:uppercase;
+}
+
+h2.title_intro{
+  color:#434264;
+  text-transform:uppercase;
+}
+
+h1.page_title{
+  color: #f2295b;
+  font-size: 61px;
+  font-family: "Vidaloka", Sans-serif;
+  font-weight: normal;
+  letter-spacing: -2px;
+  margin:25px 0;
+}
+
+p{
+font-size: 18px;
+font-weight: light;
+margin:0 0 25px 0;
+}
+
+div.divider{
+  height:15px;
+}
+
+a{
+  color:#FF3200;
+  text-decoration:none;
+}
+
+a.slack_button{
+  display:inline-block;
+  background-color:#412F3D;
+  padding:10px 20px;
+  color:#FFF;
+  font-size:25px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75);
+}
+
+hr{
+  display:block;
+  border:none;
+  border-top:solid #EFEFEF 1px;
+}
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+ul.channel_list, ul.material_list{
+  list-style-type:none;
+}
+
+ul.channel_list li{
+  display:inline;
+  float:left;
+  margin-right:10px;
+  margin-bottom:25px;
+  color:#697279;
+  background-color:#EFEFEF;
+  padding:5px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+ul.channel_list li:last-child{
+  margin-right:0;
+}
+p.text_small{
+  font-size:12px;
+}
+
+footer{
+  text-align:right;
+  margin:25px 25px 0 0;
+  font-size:12px;
+}
+footer a{
+  color:#CCC;
+}
+
+@media only screen and (max-width: 500px) {
+  .page_wrap{
+  width:90%;
+  margin:25px auto 0 auto;
+  }
+  img{
+    max-width:80%;
+  }
+}
